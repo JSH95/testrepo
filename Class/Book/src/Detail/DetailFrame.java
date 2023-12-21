@@ -94,8 +94,8 @@ public class DetailFrame extends JFrame{
 		
 		JTextField t7= new JTextField(detailInfo[6]);
 		JTextField t8= new JTextField(detailInfo[7]);
-		JTextField t9= new JTextField(detailInfo[8]);
-		JTextField t10= new JTextField(detailInfo[9]);
+		JTextField t9= new JTextField(detailInfo[9]);
+		JTextField t10= new JTextField(detailInfo[10]);
 
 		
 		p.add(l1);
@@ -121,6 +121,18 @@ public class DetailFrame extends JFrame{
 		p.add(l6);
 		p.add(emty6);
 		p.add(t6);
+		p.add(l7);
+		p.add(emty7);
+		p.add(t7);
+		p.add(l8);
+		p.add(emty8);
+		p.add(t8);
+		p.add(l9);
+		p.add(emty9);
+		p.add(t9);
+		p.add(l10);
+		p.add(emty10);
+		p.add(t10);
 
 		p.add(b1);
 		p.add(b2);
@@ -134,7 +146,10 @@ public class DetailFrame extends JFrame{
 		 t4.setEnabled(false);
 		 t5.setEnabled(false);
 		 t6.setEnabled(false);
-		 t5.setEnabled(false);
+		 t7.setEnabled(false);
+		 t8.setEnabled(false);
+		 t9.setEnabled(false);
+		 t10.setEnabled(false);
 
 		
 		 

@@ -139,13 +139,13 @@ public class ModifyFrame  extends JFrame{
 				String category = t2.getText();
 				String writer = t3.getText();
 				String company = t4.getText();
-				int price = Integer.parseInt(t7.getText());
-				int no = Integer.parseInt(t6.getText());
 				String status = t5.getText();
-				String rental_user = t5.getText();
-				String return_day = t8.getText();
+				int no = Integer.parseInt(t6.getText());
+				int price = Integer.parseInt(t7.getText());
+				String rental_user = t8.getText();
 				String rental_day = t9.getText();				
 				int rental_price = Integer.parseInt(t10.getText());
+				String return_day = null;
 				boolean result = repo.modify(tilte, category, writer, company, price, status, rental_user, return_day, rental_day, rental_price, no);
 				JOptionPane.showMessageDialog(null,"정상 수정 되었습니다.");
 				setVisible(false);
